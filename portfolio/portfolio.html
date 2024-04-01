@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 10px;
+    }
+    nav a {
+      margin-right: 15px;
+    }
+    #gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .gallery-item {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+    .gallery-item:hover {
+      opacity: 0.7;
+    }
+    #contact-form input, #contact-form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>My name is Christopher Landaverde. I'm an aspiring computer science major.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div id="gallery">
+        <li>Github: <a href="https://github.com/Beefynachos152">Beefynachos152</a></li>
+      <div class="gallery-item">    
+        <img src="sa13.jpg.png" alt="sa13">
+        <p></p>
+      </div>
+      <li><a href="https://github.com/Beefynachos152/sa13-act1">sa13</a></li>
+    </div>
+  </section>
+
+  ...
+</section>
+
+<style>
+    .gallery-item img {
+        width: 140%;
+        height: auto;
+        display: block;
+        margin: auto;
+        position: -ms-page;
+    }
+</style>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="email" placeholder="Your Email">
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p>You can also reach me at:</p>
+    <ul>
+      <li>Email: clndvrde@memphis.edu</li>
+      <li>Phone: 662-420-6969</li>
+    </ul>
+  </section>
+</body>
+</html>
